@@ -6,6 +6,30 @@
 
 */
 
-body {
-    background-color: #5989a8;
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #186da7;
+    height: 100vh;
+    width: 100wh;
+}
+
+main {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+}
+
+section#loginArea {
+    position: absolute;
+    background-color: white;
+}
+
+section#loginArea > div#imgArea {
+    background-color: burlywood;
 }
