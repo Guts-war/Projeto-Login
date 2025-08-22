@@ -28,8 +28,27 @@ main {
 section#loginArea {
     position: absolute;
     background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 section#loginArea > div#imgArea {
+    display: block;
     background-color: burlywood;
+    background-image: url(../imagens/edificio.jpg);
+    background-repeat: no-repeat;
+        background-size: cover;
+    height: 200px;
+}
+
+section#loginArea > div#form {
+    padding: 10px;
+    display: block;
 }
