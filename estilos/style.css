@@ -28,8 +28,8 @@ main {
 section#loginArea {
     position: absolute;
     background-color: white;
-    width: 250px;
-    height: 500px;
+    width: 370px;
+    height: 550px;
     border-radius: 20px;
     overflow: hidden;
 
