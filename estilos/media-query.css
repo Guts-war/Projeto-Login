@@ -31,6 +31,10 @@ tela grande / 1200px
         float: right;
         width: 65%;
     }
+
+    div#form > p {
+    font-size: 16px;
+}
 }
 
 @media screen and (min-width: 992px) and (max-width: 1200px) {
@@ -52,5 +56,35 @@ tela grande / 1200px
     section#loginArea > div#form {
         float: right;
         width: 65%;
+    }
+
+    div#form > p {
+    font-size: 16px;
+    }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 4000px) {
+    body  {
+        background-image: linear-gradient(to right, #186da7, #ceeaee);
+        background-color: none;
+    }
+    
+    section#loginArea {
+        width: 1200px;
+    }
+
+    section#loginArea > div#imgArea {
+        float: left;
+        width: 50%;
+        height: 100%;
+    }
+
+    section#loginArea > div#form {
+        float: right;
+        width: 50%;
+    }
+
+    div#form > p {
+    font-size: 18px;
     }
 }
