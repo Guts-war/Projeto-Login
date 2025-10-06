@@ -15,6 +15,7 @@
 
 body, html {
     background-color: #186da7;
+    background-image: linear-gradient(to top, #186da7, #ceeaee);
     height: 100vh;
     width: 100wh;
 }
@@ -29,14 +30,15 @@ section#loginArea {
     position: absolute;
     background-color: white;
     width: 370px;
-    height: 550px;
+    height: 590px;
     border-radius: 20px;
     overflow: hidden;
-
-    position: absolute;
+    
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    transition: width 0.5s, height 0.5s;  
+    transition-timing-function: ease;
 }
 
 section#loginArea > div#imgArea {
@@ -44,13 +46,12 @@ section#loginArea > div#imgArea {
     background-color: burlywood;
     background-image: url(../imagens/edificio.jpg);
     background-repeat: no-repeat;
-        background-size: cover;
+    background-size: cover;
     height: 200px;
 }
 
 section#loginArea > div#form {
     padding: 10px;
-    display: block;
 }
 
 /* media querys abaixo */

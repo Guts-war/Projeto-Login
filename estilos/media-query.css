@@ -5,7 +5,7 @@
 tela pequena / 600px
 celular / 600px - 768px
 tablet / 768px - 992px
-desktop / 992 - 1200px
+desktop / 992px - 1200px
 tela grande / 1200px
 */
 
@@ -14,6 +14,43 @@ tela grande / 1200px
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#loginArea {
         width: 90vw;
-        
+    }
+
+    body  {
+        background-image: linear-gradient(to right, #186da7, #ceeaee);
+        background-color: none;
+    }
+
+    section#loginArea > div#imgArea {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    section#loginArea > div#form {
+        float: right;
+        width: 65%;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+    body  {
+        background-image: linear-gradient(to right, #186da7, #ceeaee);
+        background-color: none;
+    }
+    
+    section#loginArea {
+        width: 900px;
+    }
+
+    section#loginArea > div#imgArea {
+        float: left;
+        width: 35%;
+        height: 100%;
+    }
+
+    section#loginArea > div#form {
+        float: right;
+        width: 65%;
     }
 }
