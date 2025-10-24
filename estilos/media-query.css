@@ -14,6 +14,7 @@ tela grande / 1200px
 @media screen and (min-width: 768px) and (max-width: 992px) {
     section#loginArea {
         width: 90vw;
+        height: 400px;
     }
 
     body  {
@@ -62,6 +63,7 @@ tela grande / 1200px
     
     section#loginArea {
         width: 900px;
+        height: 400px;
     }
 
     section#loginArea > div#imgArea {
@@ -104,16 +106,17 @@ tela grande / 1200px
     
     section#loginArea {
         width: 1200px;
+        height: 400px;
     }
 
     section#loginArea > div#imgArea {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
     }
 
     section#loginArea > div#form {
-        float: right;
+        float: left;
         width: 50%;
     }
 
