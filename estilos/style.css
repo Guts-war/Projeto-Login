@@ -125,18 +125,22 @@ form > input[type=submit]:hover {
     margin: auto;
     padding-top: 5px;
 
-    height: 30px;
-    width: 150px;
-    justify-content: space-around;
-
+    height: 40px;
+    width: 100px;
+    justify-content: center;
+    
     
 }
 
-.logo-links {
+#links > a {
+    margin: 15px 15px 15px 15px;    
     
 }
 
-
+#links > a:hover {
+    transform: rotate(10deg);
+    transition: cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
 
 /* media querys abaixo */
 
